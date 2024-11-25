@@ -1,7 +1,7 @@
 # Hotel Profit Optimization Simulation
 
 ## Overview
-This R-based simulation implements a Monte Carlo method to optimize hotel room pricing by modeling guest arrivals and departures based on price-dependent distributions. The program aims to find the optimal room price that maximizes daily profit while considering the dynamic nature of hotel occupancy.
+This R-based simulation implements a method to optimize hotel room pricing by modeling guest arrivals and departures based on price-dependent distributions. The program aims to find the optimal room price that maximizes daily profit while considering the dynamic nature of hotel occupancy.
 
 ## Technical Details
 
@@ -25,7 +25,7 @@ This R-based simulation implements a Monte Carlo method to optimize hotel room p
 - Performs price optimization through iterative simulations
 
 ## Methodology
-The simulation employs Monte Carlo methods to:
+The simulation employs methods to:
 1. Generate random guest arrivals based on price-dependent Poisson distribution
 2. Model length of stay using price-sensitive geometric distribution
 3. Calculate daily profits based on occupancy and room price
